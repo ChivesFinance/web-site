@@ -43,7 +43,7 @@ var chart = am4core.create("chartdiv", am4charts.XYChart);
 chart.padding(0, 15, 0, 15);
 
 // Load external data
-chart.dataSource.url = "https://7bc6b709-416c-4595-8688-368a09fc2910.usrfiles.com/ugd/7bc6b7_909680370f824b3fa874ada37b69c2ff.csv";
+chart.dataSource.url = "***.csv";
 chart.dataSource.parser = new am4core.CSVParser();
 chart.dataSource.parser.options.useColumnNames = true;
 
